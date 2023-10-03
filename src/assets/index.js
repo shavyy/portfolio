@@ -68,7 +68,10 @@ import jobit from "./jobit.png";
 import github from "./github.png";
 import initX from "./initX.png";
 
+import CV_Xavier_AIGUAVIVA_dev from "./CV_Xavier_AIGUAVIVA_dev.pdf"
+
 export {
+  CV_Xavier_AIGUAVIVA_dev,
   initX,
   github,
   carrent,

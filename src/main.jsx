@@ -9,7 +9,7 @@ import {Policy} from './components';
 
 const router = createBrowserRouter ([
   {
-    path:"/portfolio",
+    path:"/portfolio/",
     element: <App />, 
   },
   {
@@ -24,6 +24,10 @@ const router = createBrowserRouter ([
     path:"/portfolio/LegalNotice",
     element: <LegalNotice />, 
   },
+  // {
+  //   path:"*",
+  //   element: <NotFound />, 
+  // },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
