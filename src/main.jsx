@@ -9,19 +9,19 @@ import {Policy} from './components';
 
 const router = createBrowserRouter ([
   {
-    path:"/",
+    path:"/portfolio",
     element: <App />, 
   },
   {
-    path:"Ressources",
+    path:"/portfolio/Ressources",
     element: <Ressources />, 
   },
   {
-    path:"Policy",
+    path:"/portfolio/Policy",
     element: <Policy />, 
   },
   {
-    path:"LegalNotice",
+    path:"/portfolio/LegalNotice",
     element: <LegalNotice />, 
   },
 ]);
