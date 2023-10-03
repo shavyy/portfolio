@@ -17,7 +17,6 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -63,30 +62,23 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
   );
 };
 
 const Works = () => {
   return (
     <section id="realizations" className={`${styles.paddingY}`}>
-      <motion.div variants={textVariant()}>
+
         <p className={`${styles.sectionSubText} flex flex-col justify-center items-center w-full h-full`}>Mon Travail</p>
         <h2 className={`${styles.sectionHeadText} flex flex-col justify-center items-center w-full h-full`}>Projets personnels.</h2>
-      </motion.div>
 
-      <div className='flex flex-col justify-center items-center w-full h-full'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-15xl leading-[30px]'
-        >
+      <div className='flex flex-col justify-center items-center w-full h-full mt-3 text-secondary text-[17px] max-w-15xl leading-[30px]'>
             Les projets suivants ont été développés à titre personnels et montrent une partie
             de mon expérience et de mes compétences. Chaque projet est brièvement décrit
             et certains sont disponibles via les liens associés.
             Ce travail reflète ma capacité à résoudre des problèmes, apprendre de nouvelles compétences 
             et à les concrétiser.<br/>
             Ci-dessous, vous trouverez quelques uns d'entre eux.
-        </motion.p>
       </div>
       <h3 className={`${styles.flexCenter} ${styles.heading3} mt-20`}> Produits Electroniques </h3>
       <div className='mt-5 flex flex-wrap gap-7 justify-center items-center'>
