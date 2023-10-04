@@ -7,28 +7,28 @@ import {Ressources} from './components';
 import {LegalNotice} from './components';
 import {Policy} from './components';
 
-const router = createBrowserRouter ([
-  {
+import { Route } from 'react-router-dom';
+
+const router = createBrowserRouter (
+   [
+   {
     path:"/portfolio/",
-    element: <App />, 
-  },
-  {
-    path:"/portfolio/Ressources",
-    element: <Ressources />, 
-  },
-  {
-    path:"/portfolio/Policy",
-    element: <Policy />, 
-  },
-  {
-    path:"/portfolio/LegalNotice",
-    element: <LegalNotice />, 
-  },
-  // {
-  //   path:"*",
-  //   element: <NotFound />, 
-  // },
-]);
+     element: <App />, 
+   },
+   {
+     path:"/portfolio/Ressources",
+     element: <Ressources />, 
+   },
+   {
+     path:"/portfolio/Policy",
+     element: <Policy />, 
+   },
+   {
+     path:"/portfolio/LegalNotice",
+     element: <LegalNotice />, 
+   },
+ ]
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

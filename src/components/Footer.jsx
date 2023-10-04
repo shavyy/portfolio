@@ -43,7 +43,7 @@ const Footer = () => (
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${
               index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
             }`}
-            onClick={() => window.open("social.link")}
+            onClick={() => window.open(social.link)}
           />
         ))}
       </div>
