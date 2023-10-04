@@ -10,7 +10,7 @@ import {Policy} from './components';
 const router = createBrowserRouter (
   createRoutesFromElements(
     <Route exact path="/portfolio">
-      <Route exact path="/portfolio" element={<App />}/>
+      <Route exact path="/portfolio/" element={<App />}/>
       <Route exact path="/portfolio/Ressources" element={<Ressources />}/>
       <Route exact path="/portfolio/Policy" element={<Policy />}/>
       <Route exact path="/portfolio/LegalNotice" element={<LegalNotice />}/>
