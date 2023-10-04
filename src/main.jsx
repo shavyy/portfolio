@@ -7,13 +7,11 @@ import {Ressources} from './components';
 import {LegalNotice} from './components';
 import {Policy} from './components';
 
-import { Route } from 'react-router-dom';
-
 const router = createBrowserRouter (
-   [
+  [
    {
-    path:"/portfolio/",
-     element: <App />, 
+    path:"/portfolio",
+     element: <Policy />, 
    },
    {
      path:"/portfolio/Ressources",
@@ -27,6 +25,7 @@ const router = createBrowserRouter (
      path:"/portfolio/LegalNotice",
      element: <LegalNotice />, 
    },
+   {basename: "/portfolio/"}
  ]
 );
 
