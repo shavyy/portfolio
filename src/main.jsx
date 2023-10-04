@@ -11,18 +11,18 @@ const router = createBrowserRouter (
   [
    {
     path:"/portfolio",
-     element: <Policy />, 
+     element: <App />, 
    },
    {
-     path:"/portfolio/Ressources",
+     path:"/Ressources",
      element: <Ressources />, 
    },
    {
-     path:"/portfolio/Policy",
+     path:"/Policy",
      element: <Policy />, 
    },
    {
-     path:"/portfolio/LegalNotice",
+     path:"/LegalNotice",
      element: <LegalNotice />, 
    },
    {basename: "/portfolio/"}
