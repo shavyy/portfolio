@@ -70,10 +70,10 @@ const Works = () => {
     <section id="realizations" className={`${styles.paddingY}`}>
 
         <p className={`${styles.sectionSubText} flex flex-col justify-center items-center w-full h-full`}>Mon Travail</p>
-        <h2 className={`${styles.sectionHeadText} flex flex-col justify-center items-center w-full h-full`}>Projets personnel.</h2>
+        <h2 className={`${styles.sectionHeadText} flex flex-col justify-center items-center w-full h-full`}>Projets personnel</h2>
 
       <div className='flex flex-col justify-center items-center w-full h-full mt-3 text-secondary text-[17px] max-w-15xl leading-[30px]'>
-            Les projets suivants ont été développés à titre personnels et montrent une partie
+            Les projets suivants ont été développés à titre personnel et montrent une partie
             de mon expérience et de mes compétences. Chaque projet est brièvement décrit
             et certains sont disponibles via les liens associés.
             Ce travail reflète ma capacité à résoudre des problèmes, apprendre de nouvelles compétences 
