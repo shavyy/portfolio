@@ -78,7 +78,7 @@ const Works = () => {
             et certains sont disponibles via les liens associés.
             Ce travail reflète ma capacité à résoudre des problèmes, apprendre de nouvelles compétences 
             et à les concrétiser.<br/>
-            Ci-dessous, vous trouverez quelques uns d'entre eux.
+            Ci-dessous, les projets personnels de l'année 2023 ...
       </div>
       <h3 className={`${styles.flexCenter} ${styles.heading3} mt-20`}> Produits Electroniques </h3>
       <div className='mt-5 flex flex-wrap gap-7 justify-center items-center'>

@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"}`}>
         <Link
-          to='/portfolio'
+          to='/'
           className='flex items-center gap-0'
           onClick={() => {
             setActive("");

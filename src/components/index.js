@@ -12,8 +12,11 @@ import Policy from "./Policy";
 import Experience from "./Experience";
 import About from "./About";
 import WorkCard from "./WorkCard";
+import LienGIT from './lienGIT';
+import PageNotFound from './PageNotFound';
 
 export {
+  PageNotFound,
   Navbar,
   GalleryDrawing,
   Contact,
@@ -28,5 +31,6 @@ export {
   About,
   WorkCard,
   StarsCanvas,
-  EarthCanvas
+  EarthCanvas,
+  LienGIT
 };

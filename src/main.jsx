@@ -6,35 +6,18 @@ import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route, O
 import {Ressources} from './components';
 import {LegalNotice} from './components';
 import {Policy} from './components';
-
+import {PageNotFound} from './components';
 
 const router = createBrowserRouter (
   createRoutesFromElements(
-    <Route exact path="/portfolio">
-      <Route exact path="/portfolio/" element={<App />}/>
-      <Route exact path="/portfolio/Ressources" element={<Ressources />}/>
-      <Route exact path="/portfolio/Policy" element={<Policy />}/>
-      <Route exact path="/portfolio/LegalNotice" element={<LegalNotice />}/>
+    <Route exact path="/">
+      <Route exact path="/" element={<App />}/>
+      <Route exact path="/Ressources" element={<Ressources />}/>
+      <Route exact path="/Policy" element={<Policy />}/>
+      <Route exact path="/LegalNotice" element={<LegalNotice />}/>
+      <Route exact path="*" element={<PageNotFound />}/>
     </Route>
   )
-//    [
-//    {
-//     path:"/portfolio/",
-//      element: <App />, 
-//    },
-//    {
-//      path:"/portfolio/Ressources",
-//      element: <Ressources />, 
-//    },
-//    {
-//      path:"/portfolio/Policy",
-//      element: <Policy />, 
-//    },
-//    {
-//      path:"/portfolio/LegalNotice",
-//      element: <LegalNotice />, 
-//    },
-//  ]
 );
 
 ReactDOM.createRoot(document.getElementById('root')).render(

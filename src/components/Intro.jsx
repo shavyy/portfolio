@@ -1,6 +1,6 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
-import LienGIT from "./lienGIT";
+import { LienGIT } from ".";
 
 const Intro = () => {
   return (
