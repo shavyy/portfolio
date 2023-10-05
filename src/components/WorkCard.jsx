@@ -70,7 +70,7 @@ const Works = () => {
     <section id="realizations" className={`${styles.paddingY}`}>
 
         <p className={`${styles.sectionSubText} flex flex-col justify-center items-center w-full h-full`}>Mon Travail</p>
-        <h2 className={`${styles.sectionHeadText} flex flex-col justify-center items-center w-full h-full`}>Projets personnels.</h2>
+        <h2 className={`${styles.sectionHeadText} flex flex-col justify-center items-center w-full h-full`}>Projets personnel.</h2>
 
       <div className='flex flex-col justify-center items-center w-full h-full mt-3 text-secondary text-[17px] max-w-15xl leading-[30px]'>
             Les projets suivants ont été développés à titre personnels et montrent une partie

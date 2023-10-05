@@ -46,7 +46,7 @@ export const features = [
     icon: star,
     title: "Electronique",
     content:
-      "Conception et développement d'équipement électronique",
+      "Conception et développement d'équipements électroniques",
   },
   {
   id: "feature-4",
@@ -164,9 +164,8 @@ export const experiences = [
     date: "2012 - 2015",
     points: [
       "Frein Pneumatique métro ESP : Test de carte électronique",
-      "Distribution électrique avion militaire KC-390 : Rédaction de spécification",
+      "Distribution électrique avion militaire KC-390 : Rédaction de spécifications",
       "Supervision de poste Electrique Arkens : Conception, Développement et Test équipement",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -195,7 +194,7 @@ export const experiences = [
 
 export const serviceCard = [
   {
-    title: "Ingénieur Electroncien",
+    title: "Ingénieur Electronicien",
     icon: diamond,
   },
   {
@@ -203,7 +202,7 @@ export const serviceCard = [
     icon: mobile,
   },
   {
-    title: "Ingénieur Méthode & Qualité",
+    title: "Ingénieur Méthodes & Qualité",
     icon: backend,
   },
   {
@@ -255,7 +254,7 @@ export const projects_elec = [
   },
   {
     name: "Console de jeu Retro",
-    description: "Console de jeu réalisé sous distribution batocera. Un grand d'émulateurs sont ainsi utilisables  pour le plus grand bonheur des petits et des grands.",
+    description: "Console de jeu réalisé sous distribution batocera. Un grand nombre d'émulateurs sont ainsi utilisables  pour le plus grand bonheur des petits et des grands.",
     tags: [
       {
         name: "Raspberry pi",
@@ -275,7 +274,7 @@ export const projects_elec = [
   },
   {
     name: "Domotique",
-    description: "Cette central domotique à base de raspberry pi permet de monitorer les capteurs du domicile (température, humidité, consommation électrique ...) et de commander les actionneurs existants (Volets roulants, chauffages, portail, ... le but étant de faciliter la gestion du quotidien au sein du domicile.",
+    description: "Cette centrale domotique à base de raspberry pi permet de monitorer les capteurs du domicile (température, humidité, consommation électrique ...) et de commander les actionneurs existants (Volets roulants, chauffages, portail, ...) le but étant de faciliter la gestion du quotidien au sein du domicile.",
     tags: [
       {
         name: "Raspberry pi",
@@ -326,7 +325,7 @@ export const projects_elec = [
 export const projects_web = [
   {
     name: "Site Web Sage femme",
-    description: "Grâce à des détecteurs de luminosité, le panneau solaire se positionne automatiquement de manière à obtenir le maximum de luminosité. L'énergie ainsi reçue permet d'alimenter le système et de recharger une batterie Li-Ion.",
+    description: "Site de Sage femme développé via le CMS Wordpress. Il présente l'activité du cabinet.",
     tags: [
       {
         name: "Wordpress",
@@ -346,7 +345,7 @@ export const projects_web = [
   },
   {
     name: "Portfolio Développeur Web",
-    description: "Grâce à des détecteurs de luminosité, le panneau solaire se positionne automatiquement de manière à obtenir le maximum de luminosité. L'énergie ainsi reçue permet d'alimenter le système et de recharger une batterie Li-Ion.",
+    description: "Site portfolio développé sous librairie JS REACT et déployé via Vercel. C'est un site personnel me permettant de montrer mes compétences et expérences.",
     tags: [
       {
         name: "REACT",

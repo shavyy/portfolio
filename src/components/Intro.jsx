@@ -22,7 +22,7 @@ const Intro = () => {
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           J'ai créé ce site dans le but de développer mes compétences dans le monde du WEB 
-          et également pour présenter mon parcous, mes expériences et mes compétences.
+          et également pour présenter mon parcours, mes expériences et mes compétences.
           Ce développement s'incrit  dans le cadre d'une reconversion professionnelle et j'espère que
           vous prendrez plaisir à parcourir cette page.
         </p>
