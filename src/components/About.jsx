@@ -40,7 +40,7 @@ const ServiceCard = ({ index, title, icon }) => (
       <>
         <motion.div variants={textVariant()} className='flex flex-col justify-center items-center w-full h-full'>
           <p className={styles.sectionSubText}>Introduction</p>
-          <h2 className={styles.sectionHeadText}>Vue d'ensemble.</h2>
+          <h2 className={styles.sectionHeadText}>Vue d'ensemble</h2>
         </motion.div>
   
         <motion.p

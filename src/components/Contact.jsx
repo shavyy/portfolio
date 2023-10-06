@@ -39,7 +39,7 @@ const Contact = () => (
     <Form onSubmit={handleOnSubmit} inverted className='mt-12 flex flex-col gap-3'>
 
         <p className={styles.sectionSubText}>Discutons ensemble</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
             <Form.Field
               id='form-input-control-name'

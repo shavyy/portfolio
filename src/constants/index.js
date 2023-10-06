@@ -234,7 +234,7 @@ export const projects_elec = [
   },
   {
     name: "GPS Tracker",
-    description: "Ce GPS tracker permet de générer les coordonnées de l'utilisateur lors d'un appui boutin et de la transmettre par SMS.",
+    description: "Ce GPS tracker permet de générer les coordonnées de l'utilisateur lors d'un appui bouton et de la transmettre par SMS.",
     tags: [
       {
         name: "Arduino",
