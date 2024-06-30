@@ -1,3 +1,4 @@
+//import asset
 import bill from "./bill.png";
 import logo from "./logo.svg";
 import logo2 from "./logo2.svg";
